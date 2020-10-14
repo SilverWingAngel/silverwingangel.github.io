@@ -1,0 +1,122 @@
+@charset "utf-8";
+body, html {
+  scroll-behavior: smooth;
+  background-color: #C9E5FB;
+  height: 100%;
+  width: 100%;
+}
+* {
+  margin: 0px;
+  padding: 0px;
+  border: 0px
+}
+a {
+  color: #ebf2f8;
+  text-decoration: none;
+}
+.left {
+	width: 90%;
+	height: 100%
+}
+.dingbu {
+  line-height: 200%;
+  height: 5%;
+  width: 98%;
+  font-size: 200%;
+  text-align: left;
+  color: #ebf2f8;
+  padding-left: 2%;
+  text-shadow: 2px 2px 3px rgba(10, 54, 89, 0.3), -2px -2px 3px rgba(255, 255, 255, 1);
+  color: rgba(215, 234, 250, 1.00)
+}
+.angel {
+  text-align: center;
+  color: #ebf2f8;
+}
+.jiantou {
+  font-size: 400%;
+  color: #C9E5FB;
+  text-align: center;
+  font-weight: 900;
+  transform: rotate(270deg);
+  transition: all 0.5s;
+  text-shadow: -3.5px 3.5px 2px rgba(10, 54, 89, 0.3), 3.5px -3.5px 2px rgba(255, 255, 255, 0.5);
+}
+.jiantou:hover {
+  transform: rotate(90deg);
+  transition: all 0.5s;
+  text-shadow: 3.5px -3.5px 2px rgba(10, 54, 89, 0.3), -3.5px 3.5px 2px rgba(255, 255, 255, 0.5);
+}
+.biaoti {
+  text-align: center;
+  font-size: 80px;
+  color: #ebf2f8;
+  text-shadow: 3.5px 3.5px 3px rgba(10, 54, 89, 0.3), -3.5px -3.5px 3px rgba(255, 255, 255, 1);
+}
+.neirong {
+  margin: auto auto;
+  background: #C9E5FB;
+  font-size: 35px;
+  max-width: 85%;
+  border-radius: 88px;
+  padding: 2% 2%;
+  color: #ebf2f8;
+  text-align: center;
+  transition: all 0.5s;
+  box-shadow: 10px 10px 8px rgba(10, 54, 89, 0.2), -10px -10px 8px rgba(255, 255, 255, 0.5);
+  text-shadow: -1.5px -1.5px 3px rgba(10, 54, 89, 0.3), 1.5px 1.5px 2px rgba(255, 255, 255, 1);
+  transition: all 0.5s;
+}
+.neirong > h3 {
+  text-shadow: 3px 3px 3px rgba(10, 54, 89, 0.3), -3px -3px 2px rgba(255, 255, 255, 1);
+}
+.neirong a:hover {
+  text-decoration: overline;
+  text-decoration-color: greenyellow;
+  transition: all 0.5s;
+  text-shadow: -1.8px -1.8px 2px rgba(10, 54, 89, 0.3), 1.8px 1.8px 1.5px rgba(255, 255, 255, 1);
+}
+.cebian {
+  position: fixed;
+  margin-left: 90%;
+  width: 8%;
+  height: 100%;
+  background: rgba(201,229,251,1.00);
+  border-radius: 88px;
+  box-shadow: -3px -3px 2px rgba(0, 0, 0, 0.2), 3px 3px 2px rgba(255, 255, 255, 0.8);
+}
+.cebian > div {
+  width: 80%;
+  font-size: 30px;
+  margin: auto auto;
+  background-color: #C9E5FB;
+  text-align: center;
+  border-radius: 88px;
+  transition: all 0.5s;
+  box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.2), -2px -2px 1px rgba(255, 255, 255, 0.8);
+  text-shadow: -0.5px -0.5px 1px rgba(10, 54, 89, 0.3), 0.5px 0.5px 1px rgba(255, 255, 255, 1);
+}
+.cebian > div:hover {
+  transition: all 0.5s;
+  box-shadow: -2px -2px 1px rgba(0, 0, 0, 0.2), 2px 2px 1px rgba(255, 255, 255, 0.8);
+}
+.anniu {
+  background-color: #C9E5FB;
+  margin: auto auto;
+  width: 30%;
+  height: 5%;
+  line-height: 150%;
+  border-radius: 30px;
+  text-align: center;
+  font-size: 50px;
+  color: #C9E5FB;
+  text-shadow: -2px -2px 1px rgba(10, 54, 89, 0.3), 2px 2px 1px rgba(255, 255, 255, 1);
+  box-shadow: 3px 3px 2px rgba(0, 0, 0, 0.2), -3px -3px 2px rgba(255, 255, 255, 0.8);
+  transition: all 0.5s;
+}
+.anniu:hover {
+  width: 65%;
+  border-radius: 40px;
+  box-shadow: -3px -3px 2px rgba(0, 0, 0, 0.2), 3px 3px 2px rgba(255, 255, 255, 0.8);
+  transition: all 0.5s;
+}
